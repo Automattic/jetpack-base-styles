@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Allow Node ^14.17.6 to be used in this project. This shouldn't change the behavior of the code itself.
+- Move repeated RNA styles to base styles.
 - Tests: update PHPUnit polyfills dependency (yoast/phpunit-polyfills).
 - Updated package dependencies
 - Updated package dependencies
