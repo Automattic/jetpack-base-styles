@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.5-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Package management: make package public so it can be published to npm.
+
 ## [0.1.4] - 2022-01-11
 ### Removed
 - Remove use of deprecated `~` in sass-loader imports.
@@ -36,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
+[0.1.5-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/0.1.4...0.1.5-alpha
 [0.1.4]: https://github.com/Automattic/jetpack-base-styles/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/Automattic/jetpack-base-styles/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/Automattic/jetpack-base-styles/compare/0.1.1...0.1.2
