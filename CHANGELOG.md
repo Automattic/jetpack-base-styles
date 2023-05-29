@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.5.1-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [0.5.1] - 2023-05-29
 ### Added
-- Added the jp-highlight colour for use with the social previews
+- Added the jp-highlight colour for use with the social previews [#31023]
 
 ## [0.5.0] - 2023-05-18
 ### Added
@@ -183,7 +180,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[0.5.1-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/0.5.0...0.5.1-alpha
+[0.5.1]: https://github.com/Automattic/jetpack-base-styles/compare/0.5.0...0.5.1
 [0.5.0]: https://github.com/Automattic/jetpack-base-styles/compare/0.4.4...0.5.0
 [0.4.4]: https://github.com/Automattic/jetpack-base-styles/compare/0.4.3...0.4.4
 [0.4.3]: https://github.com/Automattic/jetpack-base-styles/compare/0.4.2...0.4.3
