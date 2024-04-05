@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Added color variables for Automattic branding
 
+### Changed
+- Updated package dependencies.
+
 ## [0.6.20] - 2024-03-27
 ### Changed
 - Updated package dependencies. [#36585]
