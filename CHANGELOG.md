@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Code: Update stylesheets to use WordPress font styles.
+
 ## [0.7.0] - 2025-04-07
 ### Added
 - Add new `--jp-green-mint` color. [#42910]
@@ -372,6 +379,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
+[0.7.1-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/0.7.0...0.7.1-alpha
 [0.7.0]: https://github.com/Automattic/jetpack-base-styles/compare/0.6.45...0.7.0
 [0.6.45]: https://github.com/Automattic/jetpack-base-styles/compare/0.6.44...0.6.45
 [0.6.44]: https://github.com/Automattic/jetpack-base-styles/compare/0.6.43...0.6.44
