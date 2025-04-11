@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Code: Update stylesheets to use hex instead of named colors.
 - Code: Update stylesheets to use WordPress font styles.
 - Linting: Clean up various Styleline violations.
+- Linting: Format SCSS imports consistently.
 - Linting: Use double colon notation for pseudo-element selectors.
 
 ## [0.7.0] - 2025-04-07
