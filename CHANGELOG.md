@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.8.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- sass: Convert `@automattic/jetpack-base-styles/gutenberg-base-styles` to modules format.
+
 ## [0.7.5] - 2025-05-26
 ### Changed
 - Update package dependencies. [#43578]
@@ -395,6 +402,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
+[0.8.0-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/0.7.5...0.8.0-alpha
 [0.7.5]: https://github.com/Automattic/jetpack-base-styles/compare/0.7.4...0.7.5
 [0.7.4]: https://github.com/Automattic/jetpack-base-styles/compare/0.7.3...0.7.4
 [0.7.3]: https://github.com/Automattic/jetpack-base-styles/compare/0.7.2...0.7.3
