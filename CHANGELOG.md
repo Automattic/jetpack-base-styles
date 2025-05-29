@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - sass: Convert `@automattic/jetpack-base-styles/gutenberg-base-styles` to modules format.
+- Update README for Sass modules.
 
 ## [0.7.5] - 2025-05-26
 ### Changed
