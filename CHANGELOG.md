@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Set `exports` in package.json.
+- Update package dependencies.
 
 ## [1.0.17] - 2026-02-18
 ### Changed
