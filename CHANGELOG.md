@@ -16,6 +16,9 @@ This is an alpha version! The changes listed here are not final.
 - Remove unused `--jp-highlight` CSS variable.
 - Update package dependencies.
 
+### Fixed
+- admin-page-layout: honor WP.com nav-unification's 272px sidebar width at expanded viewports so the content column aligns with the visible sidebar instead of leaving a 112px gap.
+
 ## [1.0.21] - 2026-04-09
 ### Changed
 - Update package dependencies. [#47890]
