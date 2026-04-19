@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.22-alpha] - unreleased
+## [1.1.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added admin-page-layout mixin: a shared SCSS mixin that standardizes Jetpack wp-admin pages with a viewport-pinned content column (pinned header, scrolling middle, pinned footer). Consumed as `@use "@automattic/jetpack-base-styles/admin-page-layout"`.
 
 ### Changed
 - Remove unused `--jp-highlight` CSS variable.
@@ -497,7 +500,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[1.0.22-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.21...1.0.22-alpha
+[1.1.0-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.21...1.1.0-alpha
 [1.0.21]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.20...1.0.21
 [1.0.20]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.19...1.0.20
 [1.0.19]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.18...1.0.19
