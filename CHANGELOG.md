@@ -18,6 +18,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - admin-page-layout: honor WP.com nav-unification's 272px sidebar width at expanded viewports so the content column aligns with the visible sidebar instead of leaving a 112px gap.
+- Hide #screen-meta-links inside the jetpack-admin-page-layout mixin so the wp-admin Screen Options/Help wrapper stops reserving a 20px slot at the top of the content column.
 
 ## [1.0.21] - 2026-04-09
 ### Changed
