@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- admin-page-layout mixin: extend the flex chain into AdminPage's outer Container/Col so DataViews-style consumers can fill their bounded slot and let their own internal scroll handle the table body.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 
 ## [1.1.0] - 2026-04-20
