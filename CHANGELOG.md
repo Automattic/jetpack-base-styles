@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - admin-page-layout mixin: explicitly set `overflow: visible` on `.jp-admin-page` so consumers that drop a className with `overflow-x: hidden` on the `<AdminPage>` root don't silently turn it into a scroll container (browsers promote unset `overflow-y: visible` to `auto` when the other axis is `hidden`/`scroll`/`clip`, which would shift the entire page under the fixed `#wpbody-content` once the inner middle reaches its scroll end).
 
+### Fixed
+- admin-page-layout mixin: anchor selectors to the new `.jp-admin-page__page` className and the rendered `<header>` element, replacing the `.admin-ui-page*` global classes that admin-ui 2.0.0 dropped when it moved to CSS Modules. Restores the viewport-fitted scroll chain on every consumer (Boost, Protect, VideoPress, Search, Newsletter, Publicize, Backup, Jetpack network admin).
+
 ## [1.2.0] - 2026-05-04
 ### Added
 - admin-page-layout mixin: Use style hooks for `@wordpress/ui` Tabs hosted in an AdminPage (sticky `.jp-admin-page-tabs` wrapper, inline-padding alignment for tab buttons, header bottom-border/padding suppression when tabs are present). [#48277]
