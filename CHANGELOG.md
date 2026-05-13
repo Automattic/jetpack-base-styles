@@ -5,16 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.1-alpha] - unreleased
+## [1.2.2-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- admin-page-layout mixin: explicitly set `overflow: visible` on `.jp-admin-page` so consumers that drop a className with `overflow-x: hidden` on the `<AdminPage>` root don't silently turn it into a scroll container (browsers promote unset `overflow-y: visible` to `auto` when the other axis is `hidden`/`scroll`/`clip`, which would shift the entire page under the fixed `#wpbody-content` once the inner middle reaches its scroll end).
 - Admin page mixin: move the tabs-strip horizontal padding from the tab buttons onto the `.jp-admin-page-tabs` wrapper, so we no longer override the @wordpress/ui tab button's own padding.
 
+## [1.2.1] - 2026-05-11
+### Changed
+- Admin Page Layout: Explicitly set `overflow: visible` on `.jp-admin-page` so consumers can't accidentally turn the AdminPage root into a scroll container. [#48578]
+
 ### Fixed
-- admin-page-layout mixin: anchor selectors to the new `.jp-admin-page__page` className and the rendered `<header>` element, replacing the `.admin-ui-page*` global classes that admin-ui 2.0.0 dropped when it moved to CSS Modules. Restores the viewport-fitted scroll chain on every consumer (Boost, Protect, VideoPress, Search, Newsletter, Publicize, Backup, Jetpack network admin).
+- Admin Page Layout: Restore page-layout selectors after admin-ui 2.0.0 moved its `.admin-ui-page*` classes to CSS Modules. [#48410]
 
 ## [1.2.0] - 2026-05-04
 ### Added
@@ -520,7 +523,8 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[1.2.1-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.0...1.2.1-alpha
+[1.2.2-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.1...1.2.2-alpha
+[1.2.1]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.21...1.1.0
 [1.0.21]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.20...1.0.21
