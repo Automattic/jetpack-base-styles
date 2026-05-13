@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- admin-page-layout: add `jetpack-admin-page-layout-wp-build` mixin that layers defensive resets for wp-admin's `ul li { margin-bottom }` and `a { text-decoration: underline }` defaults onto the shared chrome, so wp-build dashboards rendering admin-ui `<Breadcrumbs>` don't inherit those globals. Non-wp-build dashboards continue using `jetpack-admin-page-layout` and stay untouched.
+
 ### Changed
 - Admin page mixin: move the tabs-strip horizontal padding from the tab buttons onto the `.jp-admin-page-tabs` wrapper, so we no longer override the @wordpress/ui tab button's own padding.
 
