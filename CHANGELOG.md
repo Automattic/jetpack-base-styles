@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.2-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.2.2] - 2026-05-14
 ### Added
-- admin-page-layout: add `jetpack-admin-page-layout-wp-build` mixin that layers defensive resets for wp-admin's `ul li { margin-bottom }` and `a { text-decoration: underline }` defaults onto the shared chrome, so wp-build dashboards rendering admin-ui `<Breadcrumbs>` don't inherit those globals. Non-wp-build dashboards continue using `jetpack-admin-page-layout` and stay untouched.
+- admin-page-layout: add `jetpack-admin-page-layout-wp-build` mixin that layers defensive resets for wp-admin's `ul li { margin-bottom }` and `a { text-decoration: underline }` defaults onto the shared chrome, so wp-build dashboards rendering admin-ui `<Breadcrumbs>` don't inherit those globals. Non-wp-build dashboards continue using `jetpack-admin-page-layout` and stay untouched. [#48682]
 
 ### Changed
-- Admin page mixin: move the tabs-strip horizontal padding from the tab buttons onto the `.jp-admin-page-tabs` wrapper, so we no longer override the @wordpress/ui tab button's own padding.
+- Admin page mixin: move the tabs-strip horizontal padding from the tab buttons onto the `.jp-admin-page-tabs` wrapper, so we no longer override the @wordpress/ui tab button's own padding. [#48706]
 
 ## [1.2.1] - 2026-05-11
 ### Changed
@@ -526,7 +523,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[1.2.2-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.1...1.2.2-alpha
+[1.2.2]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.1.0...1.2.0
 [1.1.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.0.21...1.1.0
