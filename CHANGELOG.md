@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Admin page mixin: add `.jp-admin-page-tabs--minimal` modifier for hosts that render `<Tabs.List variant="minimal">`, and re-apply the tab font-size design token from an unlayered selector to defeat wp-admin's `button { font-size: inherit }` reset.
+
 ## [1.2.2] - 2026-05-14
 ### Added
 - admin-page-layout: add `jetpack-admin-page-layout-wp-build` mixin that layers defensive resets for wp-admin's `ul li { margin-bottom }` and `a { text-decoration: underline }` defaults onto the shared chrome, so wp-build dashboards rendering admin-ui `<Breadcrumbs>` don't inherit those globals. Non-wp-build dashboards continue using `jetpack-admin-page-layout` and stay untouched. [#48682]
