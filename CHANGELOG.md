@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.3-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.2.3] - 2026-05-19
 ### Changed
-- Admin page mixin: add `.jp-admin-page-tabs--minimal` modifier for hosts that render `<Tabs.List variant="minimal">`, and re-apply the tab font-size design token from an unlayered selector to defeat wp-admin's `button { font-size: inherit }` reset.
+- Admin page tabs: Add a minimal-tabs modifier and restore the intended tab font size in WP Admin. [#48908]
 
 ## [1.2.2] - 2026-05-14
 ### Added
@@ -530,7 +527,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[1.2.3-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.2...1.2.3-alpha
+[1.2.3]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.2...1.2.3
 [1.2.2]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.1...1.2.2
 [1.2.1]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.0...1.2.1
 [1.2.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.1.0...1.2.0
