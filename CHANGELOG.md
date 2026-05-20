@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Changed
+- Update package dependencies.
+
 ### Fixed
 - Base styles: Update admin-page-layout mixin's header selector from `> header` to `> :first-child` so it keeps matching after @wordpress/admin-ui 2.1 changed the page header element from `<header>` to `<div>`.
 
