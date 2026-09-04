@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Admin page layout: Fix admin screens overlapping the admin menu in right-to-left languages.
+
 ## [1.2.10] - 2026-07-20
 ### Changed
 - Update package dependencies. [#50529]
