@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Update package dependencies.
 
+### Fixed
+- Admin pages: Keep the footer at the bottom when page content includes a preview stage.
+
 ## [1.2.12] - 2026-09-09
 ### Fixed
 - Admin page layout: Stop the flex chain at the boot stage again, so a dashboard's sidebar panel keeps its side-by-side layout on boot 0.21 and later. [#52096]
