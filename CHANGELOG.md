@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.15-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Fixed
+- Drop the page header's bottom border on dashboards whose tabs strip is not the shared one.
+- Keep the Jetpack in-dashboard message slot out of the scrollable page middle.
+- Keep the page header's bottom padding on dashboards that have a tabs strip.
+
 ## [1.2.14] - 2026-09-21
 ### Fixed
 - Admin page layout: Clip the wp-build stage so content outside the scrolling area cannot add a second scrollbar. [#52507]
@@ -580,6 +589,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
+[1.2.15-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.14...1.2.15-alpha
 [1.2.14]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.13...1.2.14
 [1.2.13]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.12...1.2.13
 [1.2.12]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.11...1.2.12
