@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Admin page layout: Add a header mixin that keeps the page header the same height on every screen and centers the logo.
+
 ### Fixed
 - Admin page layout: let consumers override the scrolling middle's children again, which the JITM slot exclusion had out-ranked.
 
