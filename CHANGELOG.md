@@ -5,12 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.2.18-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [1.2.18] - 2026-10-15
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#53004]
 
 ## [1.2.17] - 2026-10-12
 ### Added
@@ -603,7 +600,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[1.2.18-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.17...1.2.18-alpha
+[1.2.18]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.17...1.2.18
 [1.2.17]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.16...1.2.17
 [1.2.16]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.15...1.2.16
 [1.2.15]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.14...1.2.15
