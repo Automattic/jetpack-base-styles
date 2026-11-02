@@ -5,18 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.0.0] - 2026-11-02
 ### Changed
-- Update package dependencies.
+- Update package dependencies. [#53869]
 
 ### Removed
-- Remove the `gutenberg-base-styles` export. Load the `@wordpress/base-styles` modules you need directly instead.
+- Remove the `gutenberg-base-styles` export. Load the `@wordpress/base-styles` modules you need directly instead. [#54406]
 
 ### Fixed
-- Admin page layout: Keep the inspector at full width beside the page.
+- Admin page layout: Keep the inspector at full width beside the page. [#54296]
 
 ## [1.2.20] - 2026-10-28
 ### Changed
@@ -621,7 +618,7 @@ This is an alpha version! The changes listed here are not final.
 - Updated package dependencies.
 - Use Node 16.7.0 in tooling. This shouldn't change the behavior of the code itself.
 
-[2.0.0-alpha]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.20...2.0.0-alpha
+[2.0.0]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.20...2.0.0
 [1.2.20]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.19...1.2.20
 [1.2.19]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.18...1.2.19
 [1.2.18]: https://github.com/Automattic/jetpack-base-styles/compare/1.2.17...1.2.18
